@@ -5,6 +5,10 @@ export default function Home() {
         <h1 className="text-6xl font-bold text-gray-800 mb-4">
           Hello World!
         </h1>
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          Full Site Coming Soon!
+        </h2>
+        <br />
         <p className="text-xl text-gray-600 mb-8">
           Welcome to your Next.js app with TypeScript and Tailwind CSS
         </p>
