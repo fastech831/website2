@@ -1,41 +1,73 @@
+import Link from 'next/link';
+import Button from '@/components/Button';
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold text-gray-800 mb-4">
-          Hello World!
-        </h1>
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          Full Site Coming Soon!
-        </h2>
-        <br />
-        <p className="text-xl text-gray-600 mb-8">
-          Welcome to your Next.js app with TypeScript and Tailwind CSS
-        </p>
-        <div className="bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto">
-          <h2 className="text-2xl font-semibold text-gray-700 mb-4">
-            🚀 Tech Stack
-          </h2>
-          <ul className="space-y-2 text-left">
-            <li className="flex items-center text-gray-600">
-              <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-              Next.js 15
-            </li>
-            <li className="flex items-center text-gray-600">
-              <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-              TypeScript
-            </li>
-            <li className="flex items-center text-gray-600">
-              <span className="w-2 h-2 bg-cyan-500 rounded-full mr-3"></span>
-              Tailwind CSS
-            </li>
-            <li className="flex items-center text-gray-600">
-              <span className="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
-              ESLint
-            </li>
-          </ul>
+    <div className="bg-white">
+      {/* Hero Section */}
+      <section className="py-20">
+        <div className="container text-center">
+          <h1 className="text-6xl font-bold text-black mb-6">Welcome to Our Website</h1>
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            Discover amazing content, learn about our story, and explore our latest articles. 
+            We're here to provide you with valuable insights and engaging experiences.
+          </p>
+          <div className="flex justify-center space-x-4">
+            <Link href="/pages/about">
+              <Button>Learn More</Button>
+            </Link>
+            <Link href="/pages/article">
+              <Button variant="secondary">Read Article</Button>
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Quick Links Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container">
+          <h2 className="text-4xl font-bold text-black text-center mb-16">Explore Our Content</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="text-center">
+              <div className="bg-gray-200 h-48 w-full mb-6 flex items-center justify-center">
+                <span className="text-gray-500">About Image</span>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">About Us</h3>
+              <p className="text-gray-700 mb-6">
+                Learn more about our story, mission, and the people behind our work.
+              </p>
+              <Link href="/pages/about">
+                <Button variant="secondary">Read More</Button>
+              </Link>
+            </div>
+            <div className="text-center">
+              <div className="bg-gray-200 h-48 w-full mb-6 flex items-center justify-center">
+                <span className="text-gray-500">Article Image</span>
+              </div>
+              <h3 className="text-2xl font-bold text-black mb-4">Latest Article</h3>
+              <p className="text-gray-700 mb-6">
+                Check out our latest insights and thought-provoking content.
+              </p>
+              <Link href="/pages/article">
+                <Button variant="secondary">Read Article</Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20">
+        <div className="container text-center">
+          <h2 className="text-4xl font-bold text-black mb-8">Ready to Get Started?</h2>
+          <p className="text-xl text-gray-600 mb-8">
+            Join our community and stay updated with the latest content.
+          </p>
+          <Link href="/pages/about">
+            <Button>Get Started</Button>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
