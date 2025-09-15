@@ -28,7 +28,7 @@ export default function Landing() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
               <p className="text-gray-700">
-                Body text for whatever you'd like to add more to the subheading.
+                Body text for whatever you&apos;d like to add more to the subheading.
               </p>
             </div>
             <div className="text-center">
@@ -37,7 +37,7 @@ export default function Landing() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
               <p className="text-gray-700">
-                Body text for whatever you'd like to expand on the main point.
+                Body text for whatever you&apos;d like to expand on the main point.
               </p>
             </div>
             <div className="text-center">
@@ -46,7 +46,7 @@ export default function Landing() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
               <p className="text-gray-700">
-                Body text for whatever you'd like to share more.
+                Body text for whatever you&apos;d like to share more.
               </p>
             </div>
           </div>
@@ -62,19 +62,19 @@ export default function Landing() {
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
                 <p className="text-gray-700">
-                  Body text for whatever you'd like to expand on the main point.
+                  Body text for whatever you&apos;d like to expand on the main point.
                 </p>
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
                 <p className="text-gray-700">
-                  Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes.
+                  Body text for whatever you&apos;d like to say. Add main takeaway points, quotes, anecdotes.
                 </p>
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
                 <p className="text-gray-700">
-                  Body text for whatever you'd like to add more to the main point. It provides details, explanations, and context.
+                  Body text for whatever you&apos;d like to add more to the main point. It provides details, explanations, and context.
                 </p>
               </div>
               <div className="flex space-x-4">
@@ -100,7 +100,7 @@ export default function Landing() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
               <p className="text-gray-700">
-                Body text for whatever you'd like to add more to the subheading.
+                Body text for whatever you&apos;d like to add more to the subheading.
               </p>
             </div>
             <div className="text-center">
@@ -109,7 +109,7 @@ export default function Landing() {
               </div>
               <h3 className="text-2xl font-bold text-black mb-4">Subheading</h3>
               <p className="text-gray-700">
-                Body text for whatever you'd like to expand on the main point.
+                Body text for whatever you&apos;d like to expand on the main point.
               </p>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function Landing() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
               <blockquote className="text-xl font-bold text-black mb-6">
-                "A terrific piece of praise"
+                &ldquo;A terrific piece of praise&rdquo;
               </blockquote>
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
@@ -135,7 +135,7 @@ export default function Landing() {
             </div>
             <div className="text-center">
               <blockquote className="text-xl font-bold text-black mb-6">
-                "A fantastic bit of feedback"
+                &ldquo;A fantastic bit of feedback&rdquo;
               </blockquote>
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">
@@ -147,7 +147,7 @@ export default function Landing() {
             </div>
             <div className="text-center">
               <blockquote className="text-xl font-bold text-black mb-6">
-                "A genuinely glowing review"
+                &ldquo;A genuinely glowing review&rdquo;
               </blockquote>
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center">

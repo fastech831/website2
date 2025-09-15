@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold text-black mb-6">Welcome to Our Website</h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Discover amazing content, learn about our story, and explore our latest articles. 
-            We're here to provide you with valuable insights and engaging experiences.
+            We&apos;re here to provide you with valuable insights and engaging experiences.
           </p>
           <div className="flex justify-center space-x-4">
             <Link href="/pages/about">

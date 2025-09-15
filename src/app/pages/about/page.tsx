@@ -9,7 +9,7 @@ export default function About() {
             <h2 className="text-xl text-gray-600 mb-8">Subheading for description or instructions</h2>
             <div className="space-y-6 text-gray-700">
               <p>
-                Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look:
+                Body text for your whole article or post. We&apos;ll put in some lorem ipsum to show how a filled-out page might look:
               </p>
               <p>
                 Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.

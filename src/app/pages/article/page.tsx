@@ -20,7 +20,7 @@ export default function Article() {
         {/* Article Body */}
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold text-black mb-6">
-            Body text for your whole article or post. We'll put in some lorem ipsum to show how a filled-out page might look:
+            Body text for your whole article or post. We&apos;ll put in some lorem ipsum to show how a filled-out page might look:
           </h2>
           
           <div className="space-y-6 text-gray-700 mb-12">
